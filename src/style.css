@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.attribution {
+    display: block;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    background-image: url(https://avatars.githubusercontent.com/u/106533794?s=400&u=078510c3e3c9adc24bd5f2e8bccb69424a64c5a6&v=44);
+    background-size: 100%;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    z-index: 99;
+}
+
+.attribution p {
+    visibility: hidden;
+    position: fixed;
+    bottom: 4.5rem;
+    right: 5rem;
+    width: 16rem;
+    padding: 0.3rem 1rem;
+    border-radius: 1rem 1rem 0;
+    background-color: var(--dark-blue);
+    font-size: .9rem;
+    z-index: 999;
+    box-shadow: 0 0 0.4rem var(--cyan);
+    transform: rotateY(90deg);
+    transform-origin: right;
+    transition: .8s cubic-bezier(.06, .8, .1, 1);
+    color: white;
+}
+
+.attribution a {
+    color: cyan;
+}
+
+.attribution:hover p {
+    visibility: visible;
+    transform: rotateY(0);
+    background-color: black;
+}
+
+.card.active {
+    background-color: #B9FF66;
+}
+
+.wrapper-top.active {
+    padding-bottom: 30px;
+}
+
+.wrapper-top.active .plus {
+    display: none;
+}
+
+.wrapper-top.active .minum {
+    display: block;
+}
+
+.wrapper-bottom.active {
+    display: block;
+}
+
+.slick-list {
+    overflow: hidden;
+    padding: 0 50px;
+}
+
+.slick-slide {
+    position: relative;
+    float: left;
+}
+
+.slick-arrow {
+    width: 24px;
+    height: 24px;
+    font-size: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+
+.slick-arrow.slick-prev {
+    background: url('../src/images/arrow-left.png') no-repeat;
+    left: 65px;
+}
+
+
+.slick-arrow.slick-next {
+    background: url('../src/images/arrow-right.png') no-repeat;
+    right: 65px;
+}
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+}
+
+.slick-dots li.slick-active button{
+    background-color: #B9FF66;
+}
+
+.slick-dots li button{
+    background-color: white;
+    font-size: 0;
+    width: 20px;
+    min-height: 20px;
+}
+
+@layer components {
+    .container {
+        @apply max-w-[1440px] px-trim m-auto;
+    }
+
+    .btn-white {
+        @apply bg-white border border-solid border-dark;
+    }
+
+    .btn-black {
+        @apply bg-dark;
+    }
+
+    .btn-green{
+        @apply bg-green-01;
+    }
+
+    .green-background {
+        @apply bg-green-01 rounded-[7px] w-full;
+    }
+
+    .white-background {
+        @apply bg-white rounded-[7px] w-full;
+    }
+}
+
+@layer base {
+    button {
+        @apply duration-300 w-full rounded-[14px] min-h-[68px] hover:opacity-[.83];
+    }
+
+    section {
+        @apply py-big;
+    }
+
+    h1 {
+        @apply text-black font-medium text-[60px] leading-normal;
+    }
+
+    h1,
+    h2,
+    p {
+        @apply leading-normal;
+    }
+}

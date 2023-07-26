@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./src/js/slick.min.js"></script>
+    <script src="./src/js/script.js"></script>
+    <title>Landing page Postivus using tailwindcss</title>
+</head>
+
+<body>
+    <header class="py-large">
+        <div class="container">
+            <div class="flex items-center justify-between">
+                <img src="./src/images/logo.png" alt="logo">
+                <ul class="flex gap-x-[40px]">
+                    <li class="py-gap">
+                        <a href="#"
+                            class="text-black font-normal text-[28px] relative after:content-[''] after:absolute after:bottom-[-10px] after:left-0 after:rounded-[30px] after:bg-black after:h-[4px] after:w-0 after:duration-500 after:ease-out after:hover:w-full">
+                            Games
+                        </a>
+                    </li>
+                    <li class="py-gap">
+                        <a href="#"
+                            class="text-black font-normal text-[28px] relative after:content-[''] after:absolute after:bottom-[-10px] after:left-0 after:rounded-[30px] after:bg-black after:h-[4px] after:w-0 after:duration-500 after:ease-out after:hover:w-full">
+                            Services
+                        </a>
+                    </li>
+                    <li class="py-gap">
+                        <a href="#"
+                            class="text-black font-normal text-[28px] relative after:content-[''] after:absolute after:bottom-[-10px] after:left-0 after:rounded-[30px] after:bg-black after:h-[4px] after:w-0 after:duration-500 after:ease-out after:hover:w-full">
+                            Uses Cases
+                        </a>
+                    </li>
+                    <li class="py-gap">
+                        <a href="#"
+                            class="text-black font-normal text-[28px] relative after:content-[''] after:absolute after:bottom-[-10px] after:left-0 after:rounded-[30px] after:bg-black after:h-[4px] after:w-0 after:duration-500 after:ease-out after:hover:w-full">
+                            Pricing
+                        </a>
+                    </li>
+                    <li class="py-gap">
+                        <a href="#"
+                            class="text-black font-normal text-[28px] relative after:content-[''] after:absolute after:bottom-[-10px] after:left-0 after:rounded-[30px] after:bg-black after:h-[4px] after:w-0 after:duration-500 after:ease-out after:hover:w-full">
+                            Blog
+                        </a>
+                    </li>
+                </ul>
+                <button class="btn-white max-w-[231px]">
+                    <span class="text-black font-normal text-[20px]">
+                        Request a quote
+                    </span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-01">
+            <div class="container">
+                <div class="flex justify-between">
+                    <div class="flex flex-col gap-y-trim">
+                        <h1 class="max-w-[531px]">Navigating the digital landscape for sucess</h1>
+                        <p class="text-black font-normal text-[20px] leading-[28px] max-w-[498px]">Our digital marketing
+                            agency helps businesses grow and succeed online through a range of
+                            services including SEO, PPC, social media marketing, and content creation.</p>
+                        <button class="btn-black max-w-[264px]">
+                            <span class="text-white font-normal text-[20px]">Book a consultation</span>
+                        </button>
+                    </div>
+                    <img src="./src/images/section-01-img.png" alt="section-01-img">
+                </div>
+            </div>
+        </section>
+        <section class="section-02">
+            <div class="container">
+                <div class="grid grid-cols-[repeat(6,_auto)] justify-between">
+                    <img src="./src/images/section-02-img-01.svg" alt="section-02-img-01">
+                    <img src="./src/images/section-02-img-02.svg" alt="section-02-img-02">
+                    <img src="./src/images/section-02-img-03.svg" alt="section-02-img-03">
+                    <img src="./src/images/section-02-img-04.svg" alt="section-02-img-04">
+                    <img src="./src/images/section-02-img-05.svg" alt="section-02-img-05">
+                    <img src="./src/images/section-02-img-06.svg" alt="section-02-img-06">
+                </div>
+            </div>
+        </section>
+        <section class="section-04">
+            <div class="container">
+                <div class="flex items-center gap-x-[40px] mb-[85px]">
+                    <div class="green-background max-w-[178px] ">
+                        <h2 class="text-black font-medium text-[40px] text-center">Services</h2>
+                    </div>
+                    <p class="text-black font-normal text-[18px] max-w-[580px]">At our digital marketing agency, we
+                        offer a range of services to help businesses grow and succeed
+                        online. These services include:</p>
+                </div>
+                <div class="grid grid-cols-2 gap-[40px]">
+                    <div
+                        class="flex justify-between rounded-[45px] border border-solid border-dark bg-gray-01 shadow-[0px_5px_0px_0px_#191A23] p-large cursor-pointer">
+                        <div class="flex justify-between flex-col w-full max-w-[221px]">
+                            <div class="green-background px-[7px]">
+                                <p class="text-black font-medium text-[30px]">Search engine</p>
+                                <p class="text-black font-medium text-[30px]">optimization</p>
+                            </div>
+                            <div class="flex items-center gap-x-trim-small">
+                                <img src="./src/images/arrow-green.png" alt="arrow-green">
+                                <p class="text-black font-normal text-[20px] leading-[28px]">Learn more</p>
+                            </div>
+                        </div>
+                        <img src="./src/images/section-04-img-01.png" alt="section-04-img-01">
+                    </div>
+                    <div
+                        class="flex justify-between rounded-[45px] border border-solid border-dark bg-green-01 shadow-[0px_5px_0px_0px_#191A23] p-large cursor-pointer">
+                        <div class="flex justify-between flex-col w-full max-w-[221px]">
+                            <div class="white-background px-[7px]">
+                                <p class="text-black font-medium text-[30px]">Pay-per-click</p>
+                                <p class="text-black font-medium text-[30px]">advertising</p>
+                            </div>
+                            <div class="flex items-center gap-x-trim-small">
+                                <img src="./src/images/arrow-green.png" alt="arrow-green">
+                                <p class="text-black font-normal text-[20px] leading-[28px]">Learn more</p>
+                            </div>
+                        </div>
+                        <img src="./src/images/section-04-img-02.png" alt="section-04-img-02">
+                    </div>
+                    <div
+                        class="flex justify-between rounded-[45px] border border-solid border-dark bg-dark shadow-[0px_5px_0px_0px_#191A23] p-large cursor-pointer">
+                        <div class="flex justify-between flex-col w-full max-w-[221px]">
+                            <div class="white-background px-[7px]">
+                                <p class="text-black font-medium text-[30px]">Social Media</p>
+                                <p class="text-black font-medium text-[30px]">Marketing</p>
+                            </div>
+                            <div class="flex items-center gap-x-trim-small">
+                                <img src="./src/images/arrow-white.png" alt="arrow-white">
+                                <p class="text-white font-normal text-[20px] leading-[28px]">Learn more</p>
+                            </div>
+                        </div>
+                        <img src="./src/images/section-04-img-03.png" alt="section-04-img-03">
+                    </div>
+                    <div
+                        class="flex justify-between rounded-[45px] border border-solid border-dark bg-gray-01 shadow-[0px_5px_0px_0px_#191A23] p-large cursor-pointer">
+                        <div class="flex justify-between flex-col w-full max-w-[221px]">
+                            <div class="green-background px-[7px]">
+                                <p class="text-black font-medium text-[30px]">Email</p>
+                                <p class="text-black font-medium text-[30px]">Marketing</p>
+                            </div>
+                            <div class="flex items-center gap-x-trim-small">
+                                <img src="./src/images/arrow-green.png" alt="arrow-green">
+                                <p class="text-black font-normal text-[20px] leading-[28px]">Learn more</p>
+                            </div>
+                        </div>
+                        <img src="./src/images/section-04-img-04.png" alt="section-04-img-04">
+                    </div>
+                    <div
+                        class="flex justify-between rounded-[45px] border border-solid border-dark bg-green-01 shadow-[0px_5px_0px_0px_#191A23] p-large cursor-pointer">
+                        <div class="flex justify-between flex-col w-full max-w-[221px]">
+                            <div class="white-background px-[7px]">
+                                <p class="text-black font-medium text-[30px]">Content</p>
+                                <p class="text-black font-medium text-[30px]">Creation</p>
+                            </div>
+                            <div class="flex items-center gap-x-trim-small">
+                                <img src="./src/images/arrow-green.png" alt="arrow-green">
+                                <p class="text-black font-normal text-[20px] leading-[28px]">Learn more</p>
+                            </div>
+                        </div>
+                        <img src="./src/images/section-04-img-05.png" alt="section-04-img-05">
+                    </div>
+                    <div
+                        class="flex justify-between rounded-[45px] border border-solid border-dark bg-dark shadow-[0px_5px_0px_0px_#191A23] p-large cursor-pointer'">
+                        <div class="flex justify-between flex-col w-full max-w-[221px]">
+                            <div class="white-background px-[7px]">
+                                <p class="text-black font-medium text-[30px]">Analytics and</p>
+                                <p class="text-black font-medium text-[30px]">Tracking</p>
+                            </div>
+                            <div class="flex items-center gap-x-trim-small">
+                                <img src="./src/images/arrow-white.png" alt="arrow-white">
+                                <p class="text-white font-normal text-[20px] leading-[28px]">Learn more</p>
+                            </div>
+                        </div>
+                        <img src="./src/images/section-04-img-06.png" alt="section-04-img-06">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-05">
+            <div class="container">
+                <div class="flex items-center gap-x-[40px] mb-[85px]">
+                    <div class="green-background max-w-[265px]">
+                        <h2 class="text-black font-medium text-[40px] text-center">Case Studies</p>
+                    </div>
+                    <p class="text-black font-normal text-[18px] max-w-[580px]">Explore Real-Life Examples of Our Proven
+                        Digital Marketing Success through Our Case Studies</p>
+                </div>
+                <div class="flex items-center justify-between bg-gray-01 rounded-[45px] p-[60px] relative">
+                    <div class="flex flex-col gap-y-[26px]">
+                        <h2 class="text-black font-normal text-[30px]">Let's make things happen</h2>
+                        <p class="text-black font-normal text-[18px] max-w-[500px]">Contact us today to learn more about
+                            how our
+                            digital marketing services can help your
+                            businesses grow and succeed online.</p>
+                        <button class="btn-black max-w-[288px]"><span
+                                class="text-white font-normal text-[20px] leading-[28px]">Get
+                                your free proposal</span></button>
+                    </div>
+                    <img src="./src/images/section-05-img.png" alt="section-05-img" class="absolute right-[60px]">
+                </div>
+            </div>
+        </section>
+        <section class="section-06">
+            <div class="container bg-dark rounded-[45px]">
+                <div class="flex justify-between py-[70px] px-[60px]">
+                    <div class="max-w-[264px]">
+                        <p class="text-white font-normal text-[18px]">For a local restaurant, we implemented a targeted
+                            PPC campaign that resulted in a 50% increase in
+                            website traffic and a 25% increase in sales.</p>
+                        <div class="flex items-center gap-x-trim-small mt-box-spacing">
+                            <p class="text-green-01 font-normal text-[20px]">Learn more</p>
+                            <img src="./src/images/icon-arrow-right-green.png" alt="icon-arrow-right-green">
+                        </div>
+                    </div>
+                    <div class="w-[1px] h-[212px] bg-white"></div>
+                    <div class="max-w-[264px]">
+                        <p class="text-white font-normal text-[18px]">For a local restaurant, we implemented a targeted
+                            PPC campaign that resulted in a 50% increase in
+                            website traffic and a 25% increase in sales.</p>
+                        <div class="flex items-center gap-x-trim-small">
+                            <p class="text-green-01 font-normal text-[20px] mt-box-spacing">Learn more</p>
+                            <img src="./src/images/icon-arrow-right-green.png" alt="icon-arrow-right-green">
+                        </div>
+                    </div>
+                    <div class="w-[1px] h-[212px] bg-white"></div>
+                    <div class="max-w-[264px]">
+                        <p class="text-white font-normal text-[18px]">For a local restaurant, we implemented a targeted
+                            PPC campaign that resulted in a 50% increase in
+                            website traffic and a 25% increase in sales.</p>
+                        <div class="flex items-center gap-x-trim-small">
+                            <p class="text-green-01 font-normal text-[20px] mt-box-spacing">Learn more</p>
+                            <img src="./src/images/icon-arrow-right-green.png" alt="icon-arrow-right-green">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-07">
+            <div class="container">
+                <div class="flex items-center gap-x-[40px] mb-[85px]">
+                    <div class="green-background max-w-[412px]">
+                        <h2 class="text-black font-medium text-[40px] text-center">Our Working Process</p>
+                    </div>
+                    <p class="text-black font-normal text-[18px] max-w-[292px]">Step-by-Step Guide to Achieving Your
+                        Businesses Goals</p>
+                </div>
+                <div class="flex flex-col gap-y-trim">
+                    <div
+                        class="card bg-gray-01 border border-solid border-dark shadow-[0px_5px_0px_0px_#191A23] rounded-[45px] px-[60px] py-[41px] cursor-pointer duration-300">
+                        <div class="wrapper-top flex items-center justify-between">
+                            <div class="flex items-center gap-x-[25px]">
+                                <p class="text-black font-medium text-[60px]">01</p>
+                                <p class="text-black font-medium text-[30px]">Consultation</p>
+                            </div>
+                            <img src="./src/images/plus-icon.png" alt="plus-icon" class="plus">
+                            <img src="./src/images/minum-icon.png" alt="minum-icon" class="minum hidden">
+                        </div>
+                        <div class="wrapper-bottom border-t border-solid border-black hidden">
+                            <p class="text-black font-normal text-[18px] pt-trim">During the initial consultation, we
+                                will discuss your business goals and objectives, target audience, and current marketing
+                                efforts. This will allow us to understand your needs and tailor our services to best fit
+                                your requirements.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="card bg-gray-01 border border-solid border-dark shadow-[0px_5px_0px_0px_#191A23] rounded-[45px] px-[60px] py-[41px] cursor-pointer duration-300">
+                        <div class="wrapper-top flex items-center justify-between">
+                            <div class="flex items-center gap-x-[25px]">
+                                <p class="text-black font-medium text-[60px]">02</p>
+                                <p class="text-black font-medium text-[30px]">Research and Strategy Development</p>
+                            </div>
+                            <img src="./src/images/plus-icon.png" alt="plus-icon" class="plus">
+                            <img src="./src/images/minum-icon.png" alt="minum-icon" class="minum hidden">
+                        </div>
+                        <div class="wrapper-bottom border-t border-solid border-black hidden">
+                            <p class="text-black font-normal text-[18px] pt-trim">During the initial consultation, we
+                                will discuss your business goals and objectives, target audience, and current marketing
+                                efforts. This will allow us to understand your needs and tailor our services to best fit
+                                your requirements.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="card bg-gray-01 border border-solid border-dark shadow-[0px_5px_0px_0px_#191A23] rounded-[45px] px-[60px] py-[41px] cursor-pointer duration-300">
+                        <div class="wrapper-top flex items-center justify-between">
+                            <div class="flex items-center gap-x-[25px]">
+                                <p class="text-black font-medium text-[60px]">03</p>
+                                <p class="text-black font-medium text-[30px]">Implementation</p>
+                            </div>
+                            <img src="./src/images/plus-icon.png" alt="plus-icon" class="plus">
+                            <img src="./src/images/minum-icon.png" alt="minum-icon" class="minum hidden">
+                        </div>
+                        <div class="wrapper-bottom border-t border-solid border-black hidden">
+                            <p class="text-black font-normal text-[18px] pt-trim">During the initial consultation, we
+                                will discuss your business goals and objectives, target audience, and current marketing
+                                efforts. This will allow us to understand your needs and tailor our services to best fit
+                                your requirements.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="card bg-gray-01 border border-solid border-dark shadow-[0px_5px_0px_0px_#191A23] rounded-[45px] px-[60px] py-[41px] cursor-pointer duration-300">
+                        <div class="wrapper-top flex items-center justify-between">
+                            <div class="flex items-center gap-x-[25px]">
+                                <p class="text-black font-medium text-[60px]">04</p>
+                                <p class="text-black font-medium text-[30px]">Monitoring and Optimization</p>
+                            </div>
+                            <img src="./src/images/plus-icon.png" alt="plus-icon" class="plus">
+                            <img src="./src/images/minum-icon.png" alt="minum-icon" class="minum hidden">
+                        </div>
+                        <div class="wrapper-bottom border-t border-solid border-black hidden">
+                            <p class="text-black font-normal text-[18px] pt-trim">During the initial consultation, we
+                                will discuss your business goals and objectives, target audience, and current marketing
+                                efforts. This will allow us to understand your needs and tailor our services to best fit
+                                your requirements.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="card bg-gray-01 border border-solid border-dark shadow-[0px_5px_0px_0px_#191A23] rounded-[45px] px-[60px] py-[41px] cursor-pointer duration-300">
+                        <div class="wrapper-top flex items-center justify-between">
+                            <div class="flex items-center gap-x-[25px]">
+                                <p class="text-black font-medium text-[60px]">05</p>
+                                <p class="text-black font-medium text-[30px]">Reporting and Communication</p>
+                            </div>
+                            <img src="./src/images/plus-icon.png" alt="plus-icon" class="plus">
+                            <img src="./src/images/minum-icon.png" alt="minum-icon" class="minum hidden">
+                        </div>
+                        <div class="wrapper-bottom border-t border-solid border-black hidden">
+                            <p class="text-black font-normal text-[18px] pt-trim">During the initial consultation, we
+                                will discuss your business goals and objectives, target audience, and current marketing
+                                efforts. This will allow us to understand your needs and tailor our services to best fit
+                                your requirements.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="card bg-gray-01 border border-solid border-dark shadow-[0px_5px_0px_0px_#191A23] rounded-[45px] px-[60px] py-[41px] cursor-pointer duration-300">
+                        <div class="wrapper-top flex items-center justify-between">
+                            <div class="flex items-center gap-x-[25px]">
+                                <p class="text-black font-medium text-[60px]">06</p>
+                                <p class="text-black font-medium text-[30px]">Continual Improvement</p>
+                            </div>
+                            <img src="./src/images/plus-icon.png" alt="plus-icon" class="plus">
+                            <img src="./src/images/minum-icon.png" alt="minum-icon" class="minum hidden">
+                        </div>
+                        <div class="wrapper-bottom border-t border-solid border-black hidden">
+                            <p class="text-black font-normal text-[18px] pt-trim">During the initial consultation, we
+                                will discuss your business goals and objectives, target audience, and current marketing
+                                efforts. This will allow us to understand your needs and tailor our services to best fit
+                                your requirements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-08">
+            <div class="container">
+                <div class="flex items-center gap-x-[40px] mb-[85px]">
+                    <div class="green-background max-w-[115px]">
+                        <h2 class="text-black font-medium text-[40px] text-center">Team</p>
+                    </div>
+                    <p class="text-black font-normal text-[18px] max-w-[473px]">Meet the skilled and experienced team
+                        behind our successful digital marketing strategies</p>
+                </div>
+                <div class="grid grid-cols-3 gap-[40px]">
+                    <div
+                        class="border border-solid border-dark bg-white shadow-[0px_5px_0px_0px_#191A23] rounded-[45px] px-[35px] py-[40px] relative">
+                        <div class="flex gap-x-box-spacing">
+                            <img src="./src/images/section-08-img-01.png" alt="section-08-img-01">
+                            <div class="flex flex-col justify-end">
+                                <p class="text-black font-medium text-[20px]">John Smith</p>
+                                <p class="text-black font-normal text-[18px]">CEO and Founder</p>
+                            </div>
+                            <img src="./src/images/social- icon.png" alt="social-icon" class="absolute right-[35px]">
+                        </div>
+                        <div class="w-full bg-black h-[1px] my-trim"></div>
+                        <p class="text-black font-normal text-[18px]">10+ years of experience in digital marketing.
+                            Expertise in SEO, PPC, and content strategy</p>
+                    </div>
+                    <div
+                        class="border border-solid border-dark bg-white shadow-[0px_5px_0px_0px_#191A23] rounded-[45px] px-[35px] py-[40px] relative">
+                        <div class="flex gap-x-box-spacing">
+                            <img src="./src/images/section-08-img-02.png" alt="section-08-img-02">
+                            <div class="flex flex-col justify-end">
+                                <p class="text-black font-medium text-[20px]">Jane Doe</p>
+                                <p class="text-black font-normal text-[18px]">Director of Operations</p>
+                            </div>
+                            <img src="./src/images/social- icon.png" alt="social-icon" class="absolute right-[35px]">
+                        </div>
+                        <div class="w-full bg-black h-[1px] my-trim"></div>
+                        <p class="text-black font-normal text-[18px]">7+ years of experience in project management and
+                            team leadership. Strong organizational and communication skills</p>
+                    </div>
+                    <div
+                        class="border border-solid border-dark bg-white shadow-[0px_5px_0px_0px_#191A23] rounded-[45px] px-[35px] py-[40px] relative">
+                        <div class="flex gap-x-box-spacing">
+                            <img src="./src/images/section-08-img-03.png" alt="section-08-img-03">
+                            <div class="flex flex-col justify-end">
+                                <p class="text-black font-medium text-[20px]">Michael Brown</p>
+                                <p class="text-black font-normal text-[18px]">Senior SEO Specialist</p>
+                            </div>
+                            <img src="./src/images/social- icon.png" alt="social-icon" class="absolute right-[35px]">
+                        </div>
+                        <div class="w-full bg-black h-[1px] my-trim"></div>
+                        <p class="text-black font-normal text-[18px]">5+ years of experience in SEO and content
+                            creation. Proficient in keyword research and on-page optimization</p>
+                    </div>
+                    <div
+                        class="border border-solid border-dark bg-white shadow-[0px_5px_0px_0px_#191A23] rounded-[45px] px-[35px] py-[40px] relative">
+                        <div class="flex gap-x-box-spacing">
+                            <img src="./src/images/section-08-img-04.png" alt="section-08-img-04">
+                            <div class="flex flex-col justify-end">
+                                <p class="text-black font-medium text-[20px]">Emily Johnson</p>
+                                <p class="text-black font-normal text-[18px]">PPC Manager</p>
+                            </div>
+                            <img src="./src/images/social- icon.png" alt="social-icon" class="absolute right-[35px]">
+                        </div>
+                        <div class="w-full bg-black h-[1px] my-trim"></div>
+                        <p class="text-black font-normal text-[18px]">+3 years of experience in paid search advertising.
+                            Skilled in campaign management and performance analysis</p>
+                    </div>
+                    <div
+                        class="border border-solid border-dark bg-white shadow-[0px_5px_0px_0px_#191A23] rounded-[45px] px-[35px] py-[40px] relative">
+                        <div class="flex gap-x-box-spacing">
+                            <img src="./src/images/section-08-img-05.png" alt="section-08-img-05">
+                            <div class="flex flex-col justify-end">
+                                <p class="text-black font-medium text-[20px]">Brian Williams</p>
+                                <p class="text-black font-normal text-[18px]">Social Media Specialist</p>
+                            </div>
+                            <img src="./src/images/social- icon.png" alt="social-icon" class="absolute right-[35px]">
+                        </div>
+                        <div class="w-full bg-black h-[1px] my-trim"></div>
+                        <p class="text-black font-normal text-[18px]">4+ years of experience in social media marketing.
+                            Proficient in creating and scheduling content, analyzing metrics, and building engagement
+                        </p>
+                    </div>
+                    <div
+                        class="border border-solid border-dark bg-white shadow-[0px_5px_0px_0px_#191A23] rounded-[45px] px-[35px] py-[40px] relative">
+                        <div class="flex gap-x-box-spacing">
+                            <img src="./src/images/section-08-img-06.png" alt="section-08-img-06">
+                            <div class="flex flex-col justify-end">
+                                <p class="text-black font-medium text-[20px]">Sarah Kim</p>
+                                <p class="text-black font-normal text-[18px]">Content Creator</p>
+                            </div>
+                            <img src="./src/images/social- icon.png" alt="social-icon" class="absolute right-[35px]">
+                        </div>
+                        <div class="w-full bg-black h-[1px] my-trim"></div>
+                        <p class="text-black font-normal text-[18px]">2+ years of experience in writing and editing</p>
+                        <p class="text-black font-normal text-[18px]">Skilled in creating compelling, SEO-optimized
+                            content for various industries</p>
+                    </div>
+                </div>
+                <div class="mt-[40px] flex justify-end">
+                    <button class="btn-black max-w-[269px]"><span
+                            class="text-white font-normal text-[20px] leading-[28px]">See all team</span></button>
+                </div>
+            </div>
+        </section>
+        <section class="section-09">
+            <div class="container">
+                <div class="flex items-center gap-x-[40px] mb-[85px]">
+                    <div class="green-background max-w-[255px]">
+                        <h2 class="text-black font-medium text-[40px] text-center">Testimonials</p>
+                    </div>
+                    <p class="text-black font-normal text-[18px] max-w-[473px]">Hear from Our Satisfied Clients: Read
+                        Our Testimonials to Learn More about Our Digital Marketing Services</p>
+                </div>
+                <div class="bg-dark rounded-[45px] relative">
+                    <div class="has-carousel py-big">
+                        <div class="px-trim-small">
+                            <div class="border border-solid border-green-01 p-large rounded-[45px] relative">
+                                <p class="text-white font-normal text-[18px]">"We have been working with Postivus for
+                                    the past year and have seen a significant
+                                    increase in website traffic and leads as a result of their efforts. The team is
+                                    professional, responsive, and truly cares about the success of our business. We
+                                    highly
+                                    recommend Postivus to any company looking to grow their online presence."</p>
+                            </div>
+                            <div class="px-large pt-box-spacing">
+                                <p class="text-green-01 font-normal text-[18px]">John Smith</p>
+                                <p class="text-white font-normal text-[18px]">Marketing Director at XYZ Corp</p>
+                            </div>
+                        </div>
+                        <div class="px-trim-small">
+                            <div class="border border-solid border-green-01 p-large rounded-[45px] relative">
+                                <p class="text-white font-normal text-[18px]">"We have been working with Postivus for
+                                    the past year and have seen a significant
+                                    increase in website traffic and leads as a result of their efforts. The team is
+                                    professional, responsive, and truly cares about the success of our business. We
+                                    highly
+                                    recommend Postivus to any company looking to grow their online presence."</p>
+                            </div>
+                            <div class="px-large pt-box-spacing">
+                                <p class="text-green-01 font-normal text-[18px]">John Smith</p>
+                                <p class="text-white font-normal text-[18px]">Marketing Director at XYZ Corp</p>
+                            </div>
+                        </div>
+                        <div class="px-trim-small">
+                            <div class="border border-solid border-green-01 p-large rounded-[45px] relative">
+                                <p class="text-white font-normal text-[18px]">"We have been working with Postivus for
+                                    the past year and have seen a significant
+                                    increase in website traffic and leads as a result of their efforts. The team is
+                                    professional, responsive, and truly cares about the success of our business. We
+                                    highly
+                                    recommend Postivus to any company looking to grow their online presence."</p>
+                            </div>
+                            <div class="px-large pt-box-spacing">
+                                <p class="text-green-01 font-normal text-[18px]">John Smith</p>
+                                <p class="text-white font-normal text-[18px]">Marketing Director at XYZ Corp</p>
+                            </div>
+                        </div>
+                        <div class="px-trim-small">
+                            <div class="border border-solid border-green-01 p-large rounded-[45px] relative">
+                                <p class="text-white font-normal text-[18px]">"We have been working with Postivus for
+                                    the past year and have seen a significant
+                                    increase in website traffic and leads as a result of their efforts. The team is
+                                    professional, responsive, and truly cares about the success of our business. We
+                                    highly
+                                    recommend Postivus to any company looking to grow their online presence."</p>
+                            </div>
+                            <div class="px-large pt-box-spacing">
+                                <p class="text-green-01 font-normal text-[18px]">John Smith</p>
+                                <p class="text-white font-normal text-[18px]">Marketing Director at XYZ Corp</p>
+                            </div>
+                        </div>
+                        <div class="px-trim-small">
+                            <div class="border border-solid border-green-01 p-large rounded-[45px] relative">
+                                <p class="text-white font-normal text-[18px]">"We have been working with Postivus for
+                                    the past year and have seen a significant
+                                    increase in website traffic and leads as a result of their efforts. The team is
+                                    professional, responsive, and truly cares about the success of our business. We
+                                    highly
+                                    recommend Postivus to any company looking to grow their online presence."</p>
+                            </div>
+                            <div class="px-large pt-box-spacing">
+                                <p class="text-green-01 font-normal text-[18px]">John Smith</p>
+                                <p class="text-white font-normal text-[18px]">Marketing Director at XYZ Corp</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-10 relative overflow-hidden">
+            <div class="container">
+                <div class="flex items-center gap-x-[40px] mb-[85px]">
+                    <div class="green-background max-w-[229px]">
+                        <h2 class="text-black font-medium text-[40px] text-center">Contact US</p>
+                    </div>
+                    <p class="text-black font-normal text-[18px] max-w-[323px]">Connect with Us: Let's Discuss Your
+                        Digital Marketing Needs</p>
+                </div>
+                <div class="bg-gray-01 flex rounded-[45px]">
+                    <div class="py-[60px] px-big">
+                        <div class="flex gap-x-[35px]">
+                            <div class="flex items-center gap-x-trim-small">
+                                <img src="./src/images/radio-button-checkded.png" alt="radio-button-checkded">
+                                <p class="text-black font-normal text-[18px]">Say Hi</p>
+                            </div>
+                            <div class="flex items-center gap-x-trim-small">
+                                <img src="./src/images/radio-button.png" alt="radio-button">
+                                <p class="text-black font-normal text-[18px]">Get a Quote</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-y-[25px] mt-[40px]">
+                            <div>
+                                <p class="text-black font-normal text-[16px] leading-[28px] mb-small">Name</p>
+                                <input type="text" placeholder="Name"
+                                    class="border border-solid border-black rounded-[14px] bg-white w-full min-h-[59px] text-gray-02 font-normal text-[18px] px-trim placeholder:text-gray-02 placeholder:font-normal placeholder:text-[18px]">
+                            </div>
+                            <div>
+                                <p class="text-black font-normal text-[16px] leading-[28px] mb-small">Email*</p>
+                                <input type="email" placeholder="Email"
+                                    class="border border-solid border-black rounded-[14px] bg-white w-full min-h-[59px] text-gray-02 font-normal text-[18px] px-trim placeholder:text-gray-02 placeholder:font-normal placeholder:text-[18px]">
+                            </div>
+                            <div>
+                                <p class="text-black font-normal text-[16px] leading-[28px] mb-small">Message</p>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Message"
+                                    class="border border-solid border-black rounded-[14px] bg-white w-full min-h-[59px] text-gray-02 font-normal text-[18px] px-trim pt-[18px] placeholder:text-gray-02 placeholder:font-normal placeholder:text-[18px]"></textarea>
+                            </div>
+                            <button class="btn-black"><span
+                                    class="text-white font-normal text-[20px] leading-[28px]">Send
+                                    Message</span></button>
+                        </div>
+                    </div>
+                    <img src="./src/images/section-10-img.png" alt="section-10-img"
+                        class="absolute right-[-61px] top-[50%] translate-y-[-50%]">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container bg-dark rounded-t-[45px]">
+            <div class="px-[60px] py-[55px]">
+                <div class="flex items-center justify-between">
+                    <img src="./src/images/logo-white.png" alt="logo-white">
+                    <ul class="flex gap-x-[40px]">
+                        <li class="py-gap">
+                            <a href="#"
+                                class="text-white font-normal text-[18px] relative after:content-[''] after:absolute after:bottom-[-10px] after:left-0 after:rounded-[30px] after:bg-white after:h-[4px] after:w-0 after:duration-500 after:ease-out after:hover:w-full">
+                                Games
+                            </a>
+                        </li>
+                        <li class="py-gap">
+                            <a href="#"
+                                class="text-white font-normal text-[18px] relative after:content-[''] after:absolute after:bottom-[-10px] after:left-0 after:rounded-[30px] after:bg-white after:h-[4px] after:w-0 after:duration-500 after:ease-out after:hover:w-full">
+                                Services
+                            </a>
+                        </li>
+                        <li class="py-gap">
+                            <a href="#"
+                                class="text-white font-normal text-[18px] relative after:content-[''] after:absolute after:bottom-[-10px] after:left-0 after:rounded-[30px] after:bg-white after:h-[4px] after:w-0 after:duration-500 after:ease-out after:hover:w-full">
+                                Use Cases
+                            </a>
+                        </li>
+                        <li class="py-gap">
+                            <a href="#"
+                                class="text-white font-normal text-[18px] relative after:content-[''] after:absolute after:bottom-[-10px] after:left-0 after:rounded-[30px] after:bg-white after:h-[4px] after:w-0 after:duration-500 after:ease-out after:hover:w-full">
+                                Pricing
+                            </a>
+                        </li>
+                        <li class="py-gap">
+                            <a href="#"
+                                class="text-white font-normal text-[18px] relative after:content-[''] after:absolute after:bottom-[-10px] after:left-0 after:rounded-[30px] after:bg-white after:h-[4px] after:w-0 after:duration-500 after:ease-out after:hover:w-full">
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="flex gap-x-box-spacing">
+                        <li>
+                            <img src="./src/images/twitter.png" alt="twitter">
+                        </li>
+                        <li>
+                            <img src="./src/images/facebook.png" alt="facebook">
+                        </li>
+                        <li>
+                            <img src="./src/images/linkedin.png" alt="linkedin">
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex justify-between mt-[67px]">
+                    <div>
+                        <div class="green-background max-w-[126px] mb-trim">
+                            <h2 class="text-black font-normal text-[20px] text-center">Contact US:</p>
+                        </div>
+                        <p class="text-white font-normal text-[18px] mb-box-spacing">Email: info@positivus.com</p>
+                        <p class="text-white font-normal text-[18px] mb-box-spacing">Phone: 555-567-8901</p>
+                        <p class="text-white font-normal text-[18px]">Address: 1234 Main St</p>
+                        <p class="text-white font-normal text-[18px]">Moonstone City, Stardust State 12345</p>
+                    </div>
+                    <div
+                        class="bg-gray-03 flex items-center justify-between w-full max-w-[634px] px-[40px] rounded-[14px]">
+                        <input type="email" placeholder="Email"
+                            class="border border-solid border-white rounded-[14px] min-h-[67px] w-full max-w-[285px] px-[35px] text-white font-normal text-[18px] bg-transparent placeholder:text-white placeholder:font-normal placeholder:text-[18px]">
+                        <button class="btn-green max-w-[249px] max-h-[67px]"><span
+                                class="text-black font-normal text-[20px] leading-[28px]">Subscribe to
+                                news</span></button>
+                    </div>
+                </div>
+                <div class="w-full h-[1px] bg-white my-large"></div>
+                <div class="flex items-center gap-x-[40px]">
+                    <p class="text-white font-normal text-[18px] leading-[28px]">© 2023 Positivus. All Rights Reserved.</p>
+                    <p class="text-white font-normal text-[18px] leading-[28px] underline">Privacy Policy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="attribution">
+        <p>
+            Coded by <a href="https://github.com/Isgomes7" title="Isgomes7">ISGOMES7</a> 👻.
+        </p>
+    </div>
+</body>
+
+</html>
